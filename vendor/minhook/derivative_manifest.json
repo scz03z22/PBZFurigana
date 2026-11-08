@@ -1,0 +1,26 @@
+{
+  "upstream": "MinHook v1.3.4",
+  "scope": "exact 3 PBZ functions only; caller EXE SHA/signature gates mandatory",
+  "changes": [
+    "one 4096-byte private code page anywhere",
+    "14-byte absolute indirect entry jump",
+    "strictly reject RIP-relative/branch/call/ret prefixes",
+    "retain upstream thread freeze and instruction-boundary IP repair",
+    "backup and restore all 14 modified bytes"
+  ],
+  "runtime_installed": false,
+  "files": {
+    "LICENSE.txt": "d5c2224982b0b95a16b098a561335fa93f3eaf4d0aa964b7843edb986df78dc8",
+    "vendor_manifest.json": "9acbd9ec1806f40699cec5ff16b84a6fe42cdffb6c195c37a39e501f79fd7a8b",
+    "include\\MinHook.h": "62dff05e63155c6bf8135c36a0d79dedbdcaaede9da26fe38daf0bea34323e38",
+    "src\\buffer.c": "b692289b0b42aeb88eaa208a9e1e368eab936d4cb047bc615384fb21d092a415",
+    "src\\buffer.h": "9769702bd625249e59a19ede05c84365fcc7707e1fa0e5df08df42227cee13e3",
+    "src\\hook.c": "411660c4e4fe005e94c2fe10335fc12858a9581564e37aa87ee257274a7fbfb3",
+    "src\\trampoline.c": "be8ed259e2b04ea6df0ff7399075a8734bb18665f552aaf694abb57bfb4debf0",
+    "src\\trampoline.h": "53ed9934492320617a27bfd952ffe7f5b7a4a1d09963d4512447082fe7b727b4",
+    "src\\hde\\hde64.c": "824eafa315322e6da105a7ce4ec1fc0e0adeee0106d32152fbb0b59e709bd15c",
+    "src\\hde\\hde64.h": "e99aa4997bda14b534c614c3d8cb78a72c4aca91a1212c8b03ec605d1d75e36e",
+    "src\\hde\\pstdint.h": "604d1cdf45c5a95bc9cf1bbf39ca05ef83013541101d34971c5cd7577e3d5247",
+    "src\\hde\\table64.h": "b774446d2f110ce954fb0a710f4693c5562ddbd8d56fe84106f2ee80db8b50a2"
+  }
+}

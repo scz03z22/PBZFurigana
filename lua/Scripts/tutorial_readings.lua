@@ -1,0 +1,1 @@
+return {["112:4a39a7e0d6f45d69"]={["context"]="tutorial_hint",["fingerprint"]="112:4a39a7e0d6f45d69",["key"]="Tutorial_Potion_3",["keys"]={"Tutorial_Potion_3"},["parts"]={{79},{3},{6,"くすりびん"},{3},{6,"しよう"},{6},{6,"かいふく"},{3}}}}
