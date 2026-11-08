@@ -17,11 +17,11 @@
   },
   "native/geometry_bridge/bridge.cpp": {
     "origin": "native/geometry_bridge/bridge.cpp",
-    "sha256": "f36f6ffa2f683b9af6846fa249c2f7d086701431ba22a20a44c7513631f6ab7e"
+    "sha256": "0b6c43c8d99458f66f22b1c99a714a7a99b77b8743b10b54a349975d299611ec"
   },
   "native/geometry_bridge/bindings.h": {
     "origin": "native/geometry_bridge/bindings.h",
-    "sha256": "e77f5cdb8f1e771542bfb454af8a94ba0c21574529117f1a20a26987c54dc1e2"
+    "sha256": "490d7eb834a100541b8a6e5a89df94ca1b46461b6997a46759edf71499be2b5e"
   },
   "native/loading_bridge/loading.cpp": {
     "origin": "native/loading_bridge/loading.cpp",

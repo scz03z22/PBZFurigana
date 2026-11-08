@@ -1,10 +1,9 @@
-PBZFurigana 0.24.3-preview - review source
+PBZFurigana 0.24.4-preview - source
 
-Source snapshot published by the author for security review of 0.24.3-preview.
+UE4SS compatibility update based on 0.24.3-preview.
 Mod: https://www.nexusmods.com/phantombladezero/mods/647
-Quarantined file ID: 2450
-Release archive SHA-256:
-6afe106e4b59f23e96d67334faaba38703ceeeafd3d68e56347b9a994e53b8f3
+Release archive SHA-256: 2a2228e7919cfbd97b455d32b913ad74a4a8a45e4fc27143c26b414202fa1f2c
+See README.md and COMPATIBILITY.md for the tested builds and build instructions.
 
 Contents
 - configurator/: exact C# Windows Forms source and manifest for the Japanese scope selector.

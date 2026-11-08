@@ -1,18 +1,20 @@
-# PBZFurigana — 0.24.3-preview review source
+# PBZFurigana — 0.24.4-preview source
 
 Source snapshot for the Japanese furigana Mod for **Phantom Blade Zero**.
 Published by the author for Nexus Mods security review. This repository presents
 the source as browsable version-controlled files, not only a downloadable archive.
 
 - Mod page: https://www.nexusmods.com/phantombladezero/mods/647
-- Reviewed upload: **0.24.3-preview**, Nexus file **2450**.
-- Release archive SHA-256: `6afe106e4b59f23e96d67334faaba38703ceeeafd3d68e56347b9a994e53b8f3`
-- Previously submitted source archive SHA-256: `c556ad018acb7136f829218393f20dc2ea8397b537c896ef6ee489c7b08be86c`
+- Current release: **0.24.4-preview**, UE4SS compatibility update.
+- Release archive SHA-256: `2a2228e7919cfbd97b455d32b913ad74a4a8a45e4fc27143c26b414202fa1f2c`
+- Previous manually reviewed release: **0.24.3-preview**, Nexus file **2450**.
 
-The implementation files are unchanged from the previously submitted source
-snapshot. Public-facing documentation has been updated. `SOURCE_MANIFEST.json`
-records SHA-256 hashes and relative origins of all 77 copied source files;
-`RELEASE_FILES_SHA256.json` identifies the original distributed package files.
+This update changes the shared native UE4SS binding in `bindings.h` and
+`bridge.cpp`, and rebuilds the four native DLLs. The Lua scripts, reading tables
+and Japanese configuration application are unchanged from 0.24.3-preview.
+`SOURCE_MANIFEST.json` records current source hashes; `RELEASE_FILES_SHA256.json`
+identifies all 59 distributed files. See `COMPATIBILITY.md` for exact tested
+dependency builds, guard behavior and the limits of verification.
 
 ## Components
 
@@ -108,7 +110,7 @@ The output directory receives isolated test settings and a
 This is a version-bound source snapshot, not a compatibility promise for other
 game or UE4SS versions. Byte-for-byte reproducibility is not claimed: compiler
 versions, build timestamps, paths and .NET module IDs can change binary hashes.
-Publishing the source does not mean the quarantined release has been approved.
+Source publication and Nexus file approval are separate processes.
 
 ## Rights and third-party notices
 

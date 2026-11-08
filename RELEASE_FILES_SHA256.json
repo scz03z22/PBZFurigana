@@ -1,13 +1,6 @@
 {
-  "enabled.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-  "INSTALL_ja_JP.txt": "63368eff7050fa4ad89fe5b27cab38c260c0f666d28630f97320c5377410414c",
-  "INSTALL_zh_CN.txt": "d55d03b8bd3de1a5c188f4f8daa94fa3ac1ed3da72dc0296ea08361ce256f3c1",
-  "native/geometry_bridge/build/pbz_geometry_v2r1.dll": "c701c4e4b9ed7b31489a01d242fd3bb0839b37be3855885e564c88c3bd69a228",
-  "native/geometry_bridge/build/pbz_hotkeys_v1.dll": "c0b029a40cfa2c8613349f3cdb74a9d1b30e9693c32c80bef00cb2933b292176",
-  "native/loading_bridge/build/pbz_loading_v1.dll": "2d78e6b36491ef8abffefcacce4df8a3069761c14b26b4de98d068890de92138",
-  "native/loading_bridge/MinHook-LICENSE.txt": "d5c2224982b0b95a16b098a561335fa93f3eaf4d0aa964b7843edb986df78dc8",
-  "native/video_bridge/build/pbz_video_v1.dll": "28c836d5bb0db9ce39de70d7b858701165e093701a2140a1a97432033f046f23",
-  "native/video_bridge/MinHook-LICENSE.txt": "d5c2224982b0b95a16b098a561335fa93f3eaf4d0aa964b7843edb986df78dc8",
+  "INSTALL_ja_JP.txt": "c490c1a558b92601ebf05705a8ddf39347e370a526e3d9a81efa3e7de5e2b076",
+  "INSTALL_zh_CN.txt": "1bf8985326e0dd619e8288346ce90f8d1068ba88e6a900dffc0b889e74c57a3c",
   "PBZFuriganaConfig.exe": "cbddf0b1910eeb6be5fdbf8725b2b94ada3151f451433012d3736d3c4f73b2c7",
   "Scripts/book_center_ruby.lua": "aa43c9d8543212f5fbb84a7b0e0ce18e45642ade368a387996fcb4359491a62f",
   "Scripts/book_dense_inline_core.lua": "24d38e15683f2de7b57525290f2252591f450167bb01345b54f65ad4d75f8932",
@@ -57,5 +50,12 @@
   "Scripts/subtitle_ruby.lua": "52b3ed5716fcde61da7166afc89b8cda63f03987eeb41adca7e01ddc4666b70d",
   "Scripts/surface_readings.lua": "3f4ebea2b4dc5e40f1b87bc3cab0b49cd5b1475d98a608da57288b64f34bc8f1",
   "Scripts/tutorial_readings.lua": "54bd5bb6526407463effecdbdebdad1431715ae416102e274b1537cc0d0722ea",
-  "Scripts/tutorial_ruby.lua": "ef8f975a065835bb460529c2f3c1fc7ffa19f921dcc208ac3973d3bc1010c122"
+  "Scripts/tutorial_ruby.lua": "ef8f975a065835bb460529c2f3c1fc7ffa19f921dcc208ac3973d3bc1010c122",
+  "enabled.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "native/geometry_bridge/build/pbz_geometry_v2r1.dll": "0d5fb93a275307fb586a26363600fad0cef52f6b7efc88159c177c6548c319e8",
+  "native/geometry_bridge/build/pbz_hotkeys_v1.dll": "4393109976cbc5dce00dc532f5a8b538923a8c24f2fc0ae373b2258324fef129",
+  "native/loading_bridge/MinHook-LICENSE.txt": "d5c2224982b0b95a16b098a561335fa93f3eaf4d0aa964b7843edb986df78dc8",
+  "native/loading_bridge/build/pbz_loading_v1.dll": "d9bd6a677b3f1d5319887017a7e131e5a5815bca9f349c32b7c806c5b0589a5e",
+  "native/video_bridge/MinHook-LICENSE.txt": "d5c2224982b0b95a16b098a561335fa93f3eaf4d0aa964b7843edb986df78dc8",
+  "native/video_bridge/build/pbz_video_v1.dll": "81dbb6862d61b26b20b157714f3babc4ffc2c52350374f7ceeb4e4b15b151cc9"
 }
